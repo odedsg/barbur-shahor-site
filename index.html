@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="he">
+<html lang="he" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,57 +7,66 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!-- Header and Navigation -->
     <header>
-      <div class="nav-container">
+      <nav class="nav-container">
         <div class="logo"><img src="logo.png" alt="לוגו ברבור שחור" class="logo-img" />ברבור שחור</div>
-        <nav>
-          <ul>
-            <li><a href="index.html">בית</a></li>
-            <li><a href="about.html">אודות</a></li>
-            <li><a href="portfolio.html">עבודות</a></li>
-            <li><a href="contact.html">צור קשר</a></li>
-          </ul>
-        </nav>
-      </div>
+        <ul class="nav-links">
+          <li><a href="index.html">בית</a></li>
+          <li><a href="about.html">אודות</a></li>
+          <li><a href="portfolio.html">עבודות</a></li>
+          <li><a href="contact.html">צור קשר</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-      <div class="hero-content">
-        <h1>מהלכי פרסום שחותכים את הרעש</h1>
-        <p>
-          ברבור שחור היא סוכנות פרסום ופתרונות בינה מלאכותית המתמחה ביצירת
-          מהלכים חדשניים שמייצרים באזז ו‑free media. בזכות שילוב יצירתי של
-          טכנולוגיה, אסטרטגיה חדה וסיפור מותגי אנחנו מובילים את המותגים שלנו
-          קדימה.
+    <main>
+      <section class="hero" style="background-image:url('hero.png');padding:64px 16px">
+        <h1 style="color:#64ffda;margin:0 0 12px 0">מהלכים שמייצרים רעש ו-Free Media</h1>
+        <p style="max-width:720px">
+          ברבור שחור היא סוכנות קריאייטיב ו־PR המשלבת חשיבה יצירתית עם ביצוע נטול פשרות.
+          אנחנו מייצרים מהלכים שמייצרים שיחה, חדשות, ושיתופים – בלי לקנות כל חשיפה.
         </p>
-        <a href="portfolio.html" class="btn">גלו את העבודות שלנו</a>
-      </div>
-    </section>
+      </section>
 
-    <!-- About Preview -->
-    <section class="section" id="about-preview">
-      <h2 class="section-title">מי אנחנו</h2>
-      <div class="about-content">
-        <p>
-          נולדנו מתוך תשוקה לשבור את המוסכמות של עולם הפרסום. אנחנו
-          מאמינים שאסטרטגיה חדה ויצירתיות חסרת גבולות, בשילוב כלי בינה
-          מלאכותית מתקדמים, יכולים לחולל שינוי אמיתי. התהליכים שלנו מובילים
-          ליצירת מהלכי PR, סטוריטלינג וקריאייטיב שמתקיימים ברעש של עולם
-          הדיגיטל ומייצרים עניין אמיתי סביב המותגים.
-        </p>
-        <p>
-          הצוות שלנו מורכב ממומחים בתחומי הקריאייטיב, המדיה, השיווק
-          הדיגיטלי וה‑AI, הפועלים יחד כדי לספר את הסיפור שלכם בצורה המדויקת
-          ביותר ולהשיג תוצאות מדידות.
-        </p>
-      </div>
-    </section>
+      <section style="padding:24px 16px;max-width:1100px;margin:0 auto">
+        <h2>נבחר מהעבודות</h2>
+        <div class="portfolio-grid">
+          <div class="portfolio-item">
+            <img src="case_opel.png" alt="Opel ADAM – אופל אדם" />
+            <div class="item-content">
+              <h3>OPel ADAM – relaunch</h3>
+              <p>אתגר: רכב שכבר הושק פעמיים ונכשל, ובתקציב דיגיטלי בלבד. פתרון: חוויית
+              אופנה שמאפשרת לקהל להרגיש ״כוכב״ – צילום סטיילינג ואיפור עם עידו איז׳ק.
+              תוצאה: מאות אלפי חשיפות חינמיות ושילוש מכירות הדגם בתוך פחות משנה.</p>
+              <a href="portfolio.html#opel" class="btn">לקריאת המקרה</a>
+            </div>
+          </div>
 
-    <footer>
-      &copy; <script>document.write(new Date().getFullYear());</script>
-      ברבור שחור. כל הזכויות שמורות.
+          <div class="portfolio-item">
+            <img src="case_wok.png" alt="Wok to Walk" />
+            <div class="item-content">
+              <h3>Wok to Walk – נבחרת משפיענים</h3>
+              <p>הצבנו יעדים למודעות והעדפה, גייסנו נבחרת כוכבים ויצרנו 4 מנות ממותגות,
+              הפקות סטודיו ותכנים לרשת. מעל 15M צפיות, אלפי מנות נמכרו ושיפור חד במדדים.</p>
+              <a href="portfolio.html#wok" class="btn">לקריאת המקרה</a>
+            </div>
+          </div>
+
+          <div class="portfolio-item">
+            <img src="case_recycle.png" alt="Tamir – המחזור" />
+            <div class="item-content">
+              <h3>תמיר – עושים שרשרת מחזור</h3>
+              <p>יצירת מעורבות לקהל שאינו חשוף לפרסום: אפליקציה ופעילות חברתית. 18.5M חשיפות,
+              105K קליקים, 52K ביקורים, 2,500 העלאות תוכן ו-843 שרשראות מחזור.</p>
+              <a href="portfolio.html#tamir" class="btn">לקריאת המקרה</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer style="text-align:center;padding:16px;color:#7e8aa2">
+      &copy; <script>document.write(new Date().getFullYear());</script> ברבור שחור. כל הזכויות שמורות.
     </footer>
   </body>
 </html>
