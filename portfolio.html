@@ -1,85 +1,87 @@
 <!DOCTYPE html>
-<html lang="he" dir="rtl">
+<html lang="he">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>עבודות | ברבור שחור</title>
+    <title>עבודות – ברבור שחור</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <!-- Header -->
     <header>
-      <div class="header-container">
-        <div class="logo-container">
-          <a href="index.html"><img src="logo.png" alt="לוגו ברבור שחור" class="logo-img" /></a>
-          <h1 class="logo-text">ברבור שחור</h1>
-        </div>
+      <div class="nav-container">
+        <div class="logo"><img src="logo.png" alt="לוגו ברבור שחור" class="logo-img" />ברבור שחור</div>
         <nav>
-          <ul class="nav-links">
+          <ul>
             <li><a href="index.html">בית</a></li>
             <li><a href="about.html">אודות</a></li>
-            <li><a href="portfolio.html" class="active">עבודות</a></li>
+            <li><a href="portfolio.html">עבודות</a></li>
             <li><a href="contact.html">צור קשר</a></li>
           </ul>
         </nav>
       </div>
     </header>
-    <main>
-      <section class="hero">
-        <div class="hero-overlay">
-          <h2>חלק מהקמפיינים הבולטים שלנו</h2>
-          <p>אנו מאמינים בעבודות שמחוללות שיחה, משפיעות ומניעות לפעולה</p>
-        </div>
-      </section>
-      <section class="projects-section">
-        <h3 class="section-title">קמפיינים נבחרים</h3>
-        <div class="projects-grid">
-          <!-- Opel Case Study -->
-          <div class="project-card">
-            <img src="case_opel.png" alt="קמפיין אופל ADAM" class="project-image" />
-            <div class="project-info">
-              <h4 class="project-title">השקת אופל ADAM מחדש</h4>
-              <p class="project-description">
-                איך הופכים כישלון להצלחה? לקראת השקת דגם אופל ADAM בישראל הפכנו
-                את האירוע לחוויה אופנתית: בנינו אירוע דיגיטלי מעולם האופנה,
-                הזמנו קהל צעיר להיות הדוגמנים עם סטיילינג מקצועי, איפור וצילום.
-                מאות השתתפו, קיבלנו חשיפה של מאות אלפי אנשים ברחבי הרשת – וחשוב
-                מהכל: המכירות הוכפלו פי שלושה.
-              </p>
-            </div>
-          </div>
-          <!-- Wok To Walk Case Study -->
-          <div class="project-card">
-            <img src="case_wok.png" alt="קמפיין Wok to Walk" class="project-image" />
-            <div class="project-info">
-              <h4 class="project-title">קולקציית טעמים ל‑Wok To Walk</h4>
-              <p class="project-description">
-                איך מייצרים תיאבון ברשת? שיתפנו פעולה עם ארבעה כוכבי רשת
-                מובילים ויצרנו לכל אחד מהם מנה ייחודית במסעדת Wok To Walk.
-                כל אחד הפיק וידאו וסיפר על המנה שלו ברשתות החברתיות. התוצאות:
-                סרטונים עם מיליוני צפיות, למעלה ממיליון עוקבים מעורבים וביקוש
-                עצום למנות ברחבי הסניפים.
-              </p>
-            </div>
-          </div>
-          <!-- Tamir Recycling Case Study -->
-          <div class="project-card">
-            <img src="case_recycle.png" alt="קמפיין מחזור" class="project-image" />
-            <div class="project-info">
-              <h4 class="project-title">ממחזרים בפח הסגול – אתגר TAMIR</h4>
-              <p class="project-description">
-                איך מעודדים מחזור? בנינו קמפיין שנקרא "מחזר את הלאה" – אפליקציה
-                דיגיטלית שבה כל אחד יכול להתחיל שרשרת מחזור ולהזמין חברים
-                להמשיך. עם פעילות משפיענים ותוכן מקורי הגענו ל‑18.5 מיליון
-                חשיפות, מעל 50 אלף ביקורים באתר ו‑843 שרשראות מחזור. מטרה
-                סביבתית עם תוצאות מעשיות.
-              </p>
-            </div>
+    <!-- Portfolio Section -->
+    <section class="section">
+      <h2 class="section-title">עבודות נבחרות</h2>
+      <div class="portfolio-grid">
+        <!-- Opel ADAM case -->
+        <div class="portfolio-item">
+          <img src="case_opel.png" alt="Opel ADAM Digital Launch" />
+          <div class="item-content">
+            <h3>השקת אופל ADAM מחדש</h3>
+            <p>
+              אופל ביקשה להחיות דגם שנכשל פעמיים. בנינו חוויה דיגיטלית שהזמינה צעירים
+              להפוך לדוגמנים ליום אחד: סטיילינג, איפור, שיער וצילומים מקצועיים במסגרת
+              הפקת אופנה עם הרכב. המהלך יצר מאות אלפי חשיפות אורגניות, טריפל מכירות תוך פחות משנה
+              והוכיח שכשרעיון נכון פוגש קהל – לא צריך תקציב מדיה.
+            </p>
           </div>
         </div>
-      </section>
-    </main>
+        <!-- Wok To Walk case -->
+        <div class="portfolio-item">
+          <img src="case_wok.png" alt="Wok to Walk Influencer Campaign" />
+          <div class="item-content">
+            <h3>קולקציית טעמים ל‑Wok To Walk</h3>
+            <p>
+              לרשת הראמן הפופולרית יצרנו ארבע מנות ייחודיות בשיתוף פעולה עם כוכבי רשת ישראלים.
+              כל כוכב קיבל מנה משלו וכיכב בסרטונים לוהטים במטבח. הקמפיין הדיגיטלי גרף יותר מ‑3.5 מיליון צפיות
+              לכל סרטון, מעל 1.3 מיליון צפיות בסטוריז וחשיפה של 1.2 מיליון עוקבים – והביא המוני לקוחות לסניפים.
+            </p>
+          </div>
+        </div>
+        <!-- Tamir Recycling case -->
+        <div class="portfolio-item">
+          <img src="case_recycle.png" alt="Recycle the Purple Campaign" />
+          <div class="item-content">
+            <h3>ממחזרים בפח הסגול</h3>
+            <p>
+              יחד עם תאגיד תמיר פיתחנו זהות חדשה ויצרנו "מחזר את זה הלאה" – אתגר דיגיטלי שמעודד ישראלים
+              למלא את הפח הסגול. בנינו אפליקציה ייעודית, גייסנו מובילי דעה והשקנו קמפיין משולב רשת+שטח.
+              התוצאות: 18.5 מיליון חשיפות, 105 אלף הקלקות, 52 אלף כניסות לאתר ויותר מ‑2,500 משתתפים פעילים.
+            </p>
+          </div>
+        </div>
+
+        <!-- Yomengus Sumo Challenge case -->
+        <div class="portfolio-item">
+          <img src="case_yomengus.png" alt="Yomengus Sumo Challenge" />
+          <div class="item-content">
+            <h3>יומנגס – אתגר סומו</h3>
+            <p>
+              מסעדת יומנגס הזמינה את לקוחותיה לאתגר סומו יוצא דופן: חודש של פעילויות ותוכן מותגי, שבמרכזו
+              מנה ענקית בשם "סומו צ'אלנג'" ותחרות אכילה חגיגית עם לוחם סומו אמיתי. החוויה הפכה לשיחת היום
+              – מאות אנשים הגיעו לערב הגמר לראות מי ישבור את השיא. בזכות המהלך שילשנו את היעדים המקוריים,
+              גייסנו כ‑4,000 חברי מועדון ויצרנו שיח ו‑Free Media בשווי של למעלה ממיליון ש"ח.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <footer>
-      <p>© 2025 ברבור שחור - כל הזכויות שמורות</p>
+      &copy; <script>document.write(new Date().getFullYear());</script>
+      ברבור שחור. כל הזכויות שמורות.
     </footer>
   </body>
 </html>
